@@ -1,0 +1,22 @@
+[0827/133425.047:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0828/143225.966:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0829/113124.892:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0831/133350.331:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0904/050645.900:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0907/202644.871:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0910/153625.758:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0916/113439.088:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/113440.359:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/113447.741:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/113447.931:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/113511.002:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/113511.099:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/114017.153:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/121828.098:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0923/065228.356:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0923/065228.418:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/174654.042:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/174654.082:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/174654.082:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/174654.082:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/174654.082:ERROR:crash_report_database_win.cc(469)] failed to stat report

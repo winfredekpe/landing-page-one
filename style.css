@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.781);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+}
+
+.box {
+  color: rgba(255, 255, 255, 0.884);
+  background: rgba(0, 0, 0, 0.918);
+  width: 80%;
+  height: 80%;
+}
+
+.inside {
+  width: 100%;
+  margin: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  max-width: 100%;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  font-size: large;
+  font-weight: bolder;
+  margin-right: 3rem;
+}
+.logo {
+  color: rgba(255, 217, 0, 0.603);
+}
+
+.active {
+  border: 2px solid rgba(255, 217, 0, 0.603);
+  color: rgba(255, 217, 0, 0.603);
+  padding: 0.7rem;
+  border-radius: 1.3rem;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  margin-top: 4rem;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* styleing for the left side  */
+.left {
+  width: 50%;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* styling for one */
+.one {
+  display: flex;
+  width: 100%;
+  height: auto;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.oneline {
+  width: 5px;
+  height: 6rem;
+  background-color: rgba(255, 255, 255, 0.856);
+  margin-left: 1rem;
+}
+
+.onetext {
+  font-weight: bolder;
+  margin-left: 5rem;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+/*  styling for two */
+
+.second {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.newline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  margin-left: 1rem;
+}
+
+.lineone,
+.linetwo {
+  width: 3px;
+  height: 4rem;
+  background: rgba(255, 255, 255, 0.808);
+}
+
+.words {
+  margin-left: 5rem;
+  font-weight: bolder;
+  /* margin-left: ; */
+}
+
+.dot {
+  margin: 1rem 0px;
+  color: rgba(255, 217, 0, 0.705);
+}
+
+.end {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-left: 6rem;
+  margin-top: -5rem;
+}
+
+.btn {
+  width: 2.7rem;
+  height: 1.4rem;
+  border: 2px solid rgba(255, 217, 0, 0.733);
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 2rem;
+}
+
+.right {
+  background: url("one.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 90%;
+  margin-left: 3rem;
+  margin-top: -2rem;
+  filter: brightness(0.36);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.overlay {
+  display: none;
+}
+/*  some media queries */
+
+@media (max-width: 1140px) {
+  nav {
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  * {
+    background-color: black;
+    color: black;
+    border: black;
+    background: black;
+  }
+  .overlay {
+    display: block;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .it {
+    display: block;
+    border: 2px solid gold;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  .right {
+    position: absolute;
+    background: url("one.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 70%;
+    top: 10rem;
+    filter: brightness(0.4);
+    border-radius: 1rem;
+    border: 2px solid gold;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    margin: auto;
+  }
+}
